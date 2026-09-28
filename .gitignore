@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local / downloaded model artifacts
+mobileclip2*.ts
+
+# Local test videos
+data/my_demo_video/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

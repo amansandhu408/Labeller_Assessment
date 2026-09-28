@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers>=4.47,<6
+accelerate
+decord
+av
+ultralytics>=8.4.0
+scikit-learn
+pandas
+numpy
+matplotlib
+tqdm
+jupyter
