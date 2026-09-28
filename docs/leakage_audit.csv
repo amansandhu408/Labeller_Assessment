@@ -1,0 +1,11 @@
+video_id,human_verified,participant,in_EPIC_train,EPIC_train_rows,in_EPIC_validation,EPIC_validation_rows,leakage_if_used_without_exclusion,final_action
+P01_03,True,P01,True,42,False,0,True,EXCLUDE
+P01_04,True,P01,True,32,False,0,True,EXCLUDE
+P01_08,False,P01,True,32,False,0,True,EXCLUDE
+P04_08,False,P04,True,20,False,0,True,EXCLUDE
+P04_15,False,P04,True,1,False,0,True,EXCLUDE
+P04_19,True,P04,True,5,False,0,True,EXCLUDE
+P04_20,False,P04,True,13,False,0,True,EXCLUDE
+P04_26,False,P04,False,0,True,3,True,EXCLUDE
+P04_27,False,P04,False,0,True,11,True,EXCLUDE
+P18_08,False,P18,False,0,True,19,True,EXCLUDE
