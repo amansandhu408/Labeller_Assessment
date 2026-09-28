@@ -1,0 +1,96 @@
+{
+  "video": "P01_04.MP4",
+  "person_id": "P01",
+  "annotation_type": "human_verified",
+  "objects": [
+    "DOOR",
+    "FRIDGE",
+    "BOTTLE",
+    "GLASS",
+    "CUP",
+    "DRAWER"
+  ],
+  "actions": [
+    "OPENS",
+    "PICKS UP",
+    "PUT DOWN",
+    "POUR IN",
+    "WALKS",
+    "WASHING",
+    "COOKING"
+  ],
+  "annotations": [
+    {
+      "start": 0.0,
+      "end": 0.01,
+      "action": "PICKS UP",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.03,
+      "end": 0.03,
+      "action": "PUT DOWN",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.18,
+      "end": 0.19,
+      "action": "OPENS",
+      "object": "DRAWER",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.42,
+      "end": 1.04,
+      "action": "WASHING",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.04,
+      "end": 1.05,
+      "action": "PUT DOWN",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.21,
+      "end": 1.21,
+      "action": "PICKS UP",
+      "object": "BOTTLE",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.27,
+      "end": 1.27,
+      "action": "PICKS UP",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.27,
+      "end": 1.31,
+      "action": "POUR IN",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.4,
+      "end": 1.4,
+      "action": "PUT DOWN",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    }
+  ]
+}

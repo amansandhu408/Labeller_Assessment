@@ -1,0 +1,48 @@
+{
+  "video": "P04_19.MP4",
+  "person_id": "P04",
+  "annotation_type": "human_verified",
+  "objects": [
+    "DOOR",
+    "FRIDGE",
+    "BOTTLE",
+    "GLASS",
+    "CUP",
+    "DRAWER"
+  ],
+  "actions": [
+    "OPENS",
+    "PICKS UP",
+    "PUT DOWN",
+    "POUR IN",
+    "WALKS",
+    "WASHING",
+    "COOKING"
+  ],
+  "annotations": [
+    {
+      "start": 0.02,
+      "end": 0.03,
+      "action": "PICKS UP",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.05,
+      "end": 0.06,
+      "action": "PUT DOWN",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.07,
+      "end": 0.12,
+      "action": "COOKING",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    }
+  ]
+}

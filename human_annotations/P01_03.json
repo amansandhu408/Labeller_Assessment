@@ -1,0 +1,168 @@
+{
+  "video": "P01_03.MP4",
+  "person_id": "P01",
+  "annotation_type": "human_verified",
+  "objects": [
+    "DOOR",
+    "FRIDGE",
+    "BOTTLE",
+    "GLASS",
+    "CUP",
+    "DRAWER"
+  ],
+  "actions": [
+    "OPENS",
+    "PICKS UP",
+    "PUT DOWN",
+    "POUR IN",
+    "WALKS",
+    "WASHING",
+    "COOKING"
+  ],
+  "annotations": [
+    {
+      "start": 0.0,
+      "end": 0.02,
+      "action": "OPENS",
+      "object": "DOOR",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.02,
+      "end": 0.12,
+      "action": "WALKS",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.12,
+      "end": 0.14,
+      "action": "OPENS",
+      "object": "FRIDGE",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.22,
+      "end": 0.25,
+      "action": "WALKS",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.27,
+      "end": 0.32,
+      "action": "WALKS",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.33,
+      "end": 0.34,
+      "action": "PICKS UP",
+      "object": "BOTTLE",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.34,
+      "end": 0.34,
+      "action": "PICKS UP",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.34,
+      "end": 0.34,
+      "action": "PUT DOWN",
+      "object": "BOTTLE",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.34,
+      "end": 0.34,
+      "action": "PUT DOWN",
+      "object": "GLASS",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.46,
+      "end": 0.47,
+      "action": "OPENS",
+      "object": "DRAWER",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.47,
+      "end": 0.48,
+      "action": "PICKS UP",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.5,
+      "end": 0.51,
+      "action": "PUT DOWN",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 0.59,
+      "end": 1.04,
+      "action": "POUR IN",
+      "object": "CUP",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.05,
+      "end": 1.09,
+      "action": "WALKS",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.1,
+      "end": 1.13,
+      "action": "OPENS",
+      "object": "FRIDGE",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.13,
+      "end": 1.18,
+      "action": "WALKS",
+      "object": null,
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.18,
+      "end": 1.19,
+      "action": "OPENS",
+      "object": "DRAWER",
+      "confidence": 1.0,
+      "source": "human"
+    },
+    {
+      "start": 1.23,
+      "end": 1.24,
+      "action": "OPENS",
+      "object": "DRAWER",
+      "confidence": 1.0,
+      "source": "human"
+    }
+  ]
+}
