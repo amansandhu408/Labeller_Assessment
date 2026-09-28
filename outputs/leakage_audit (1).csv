@@ -1,0 +1,11 @@
+video_id,participant,human_verified,official_train_rows,official_validation_rows,found_in_source_splits,excluded_from_training
+P01_03,P01,True,42,0,True,True
+P01_04,P01,True,32,0,True,True
+P01_08,P01,False,32,0,True,True
+P04_08,P04,False,20,0,True,True
+P04_15,P04,False,1,0,True,True
+P04_19,P04,True,5,0,True,True
+P04_20,P04,False,13,0,True,True
+P04_26,P04,False,0,3,True,True
+P04_27,P04,False,0,11,True,True
+P18_08,P18,False,0,19,True,True

@@ -1,0 +1,19 @@
+human_action,human_object,matched,temporal_iou,action_match,object_match
+OPENS,DOOR,False,0.0,False,False
+WALKS,,False,0.0,False,False
+OPENS,FRIDGE,False,0.0,False,False
+WALKS,,False,0.0,False,False
+WALKS,,False,0.0,False,False
+PICKS UP,BOTTLE,False,0.0,False,False
+PICKS UP,GLASS,False,0.0,False,False
+PUT DOWN,BOTTLE,False,0.0,False,False
+PUT DOWN,GLASS,False,0.0,False,False
+OPENS,DRAWER,False,0.0,False,False
+PICKS UP,CUP,False,0.0,False,False
+PUT DOWN,CUP,False,0.0,False,False
+POUR IN,CUP,False,0.0,False,False
+WALKS,,False,0.0,False,False
+OPENS,FRIDGE,False,0.0,False,False
+WALKS,,False,0.0,False,False
+OPENS,DRAWER,False,0.0,False,False
+OPENS,DRAWER,False,0.0,False,False

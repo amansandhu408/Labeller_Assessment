@@ -1,0 +1,4 @@
+video,human_segments,matched_segments,action_agreement,object_agreement,mean_temporal_iou
+P01_03,18,0,0.0,0.0,0.0
+P01_04,9,0,0.0,0.0,0.0
+P04_19,3,0,0.0,0.0,0.0

@@ -1,0 +1,4 @@
+human_action,human_object,matched,temporal_iou,action_match,object_match
+PICKS UP,GLASS,False,0.0,False,False
+PUT DOWN,GLASS,False,0.0,False,False
+COOKING,,False,0.0,False,False

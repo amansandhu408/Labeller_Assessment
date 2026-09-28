@@ -1,0 +1,57 @@
+{
+  "OPENS": {
+    "precision": 0.6428571428571429,
+    "recall": 0.6,
+    "f1-score": 0.6206896551724138,
+    "support": 15.0
+  },
+  "PICKS UP": {
+    "precision": 0.6,
+    "recall": 0.2,
+    "f1-score": 0.3,
+    "support": 15.0
+  },
+  "PUT DOWN": {
+    "precision": 0.5625,
+    "recall": 0.6,
+    "f1-score": 0.5806451612903226,
+    "support": 15.0
+  },
+  "POUR IN": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "WALKS": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "WASHING": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.75,
+    "support": 15.0
+  },
+  "COOKING": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "accuracy": 0.6,
+  "macro avg": {
+    "precision": 0.3436224489795919,
+    "recall": 0.34285714285714286,
+    "f1-score": 0.3216192594946766,
+    "support": 60.0
+  },
+  "weighted avg": {
+    "precision": 0.6013392857142857,
+    "recall": 0.6,
+    "f1-score": 0.5628337041156841,
+    "support": 60.0
+  }
+}

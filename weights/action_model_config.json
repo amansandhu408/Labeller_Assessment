@@ -1,0 +1,25 @@
+{
+  "backbone": "microsoft/xclip-base-patch16",
+  "actions": [
+    "OPENS",
+    "PICKS UP",
+    "PUT DOWN",
+    "POUR IN",
+    "WALKS",
+    "WASHING",
+    "COOKING"
+  ],
+  "action_to_id": {
+    "OPENS": 0,
+    "PICKS UP": 1,
+    "PUT DOWN": 2,
+    "POUR IN": 3,
+    "WALKS": 4,
+    "WASHING": 5,
+    "COOKING": 6
+  },
+  "num_frames": 8,
+  "image_size": 224,
+  "feature_dim": 512,
+  "head": "Linear(256) + GELU + Dropout(0.20) + Linear(7)"
+}

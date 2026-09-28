@@ -1,0 +1,3055 @@
+{
+  "video": "P04_19.MP4",
+  "ontology": {
+    "actions": [
+      "OPENS",
+      "PICKS UP",
+      "PUT DOWN",
+      "POUR IN",
+      "WALKS",
+      "WASHING",
+      "COOKING"
+    ],
+    "objects": [
+      "DOOR",
+      "FRIDGE",
+      "BOTTLE",
+      "GLASS",
+      "CUP",
+      "DRAWER"
+    ]
+  },
+  "action_predictions": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.2514203190803528,
+      "action_probabilities": {
+        "OPENS": 0.1563950628042221,
+        "PICKS UP": 0.2514203190803528,
+        "PUT DOWN": 0.20878301560878754,
+        "POUR IN": 0.08259781450033188,
+        "WALKS": 0.045340701937675476,
+        "WASHING": 0.18216289579868317,
+        "COOKING": 0.07330022752285004
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.2567862570285797,
+      "action_probabilities": {
+        "OPENS": 0.15631148219108582,
+        "PICKS UP": 0.2567862570285797,
+        "PUT DOWN": 0.20996519923210144,
+        "POUR IN": 0.07600293308496475,
+        "WALKS": 0.04634590819478035,
+        "WASHING": 0.1864573210477829,
+        "COOKING": 0.06813089549541473
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.22656570374965668,
+      "action_probabilities": {
+        "OPENS": 0.1735331416130066,
+        "PICKS UP": 0.22656570374965668,
+        "PUT DOWN": 0.21639570593833923,
+        "POUR IN": 0.07755686342716217,
+        "WALKS": 0.04607390984892845,
+        "WASHING": 0.19677169620990753,
+        "COOKING": 0.06310301274061203
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.2157556265592575,
+      "action_probabilities": {
+        "OPENS": 0.16901196539402008,
+        "PICKS UP": 0.2157556265592575,
+        "PUT DOWN": 0.20159874856472015,
+        "POUR IN": 0.08915076404809952,
+        "WALKS": 0.04986457899212837,
+        "WASHING": 0.20987315475940704,
+        "COOKING": 0.064745232462883
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "action": "WASHING",
+      "action_confidence": 0.2147720456123352,
+      "action_probabilities": {
+        "OPENS": 0.16812823712825775,
+        "PICKS UP": 0.20269373059272766,
+        "PUT DOWN": 0.18831798434257507,
+        "POUR IN": 0.09999540448188782,
+        "WALKS": 0.05311721935868263,
+        "WASHING": 0.2147720456123352,
+        "COOKING": 0.07297533750534058
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "action": "WASHING",
+      "action_confidence": 0.19609197974205017,
+      "action_probabilities": {
+        "OPENS": 0.17118693888187408,
+        "PICKS UP": 0.19403211772441864,
+        "PUT DOWN": 0.17895002663135529,
+        "POUR IN": 0.11867441236972809,
+        "WALKS": 0.05974545702338219,
+        "WASHING": 0.19609197974205017,
+        "COOKING": 0.08131908625364304
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "action": "WASHING",
+      "action_confidence": 0.20799559354782104,
+      "action_probabilities": {
+        "OPENS": 0.16392047703266144,
+        "PICKS UP": 0.18945780396461487,
+        "PUT DOWN": 0.17574752867221832,
+        "POUR IN": 0.11906607449054718,
+        "WALKS": 0.06188049167394638,
+        "WASHING": 0.20799559354782104,
+        "COOKING": 0.08193203061819077
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "action": "WASHING",
+      "action_confidence": 0.21021915972232819,
+      "action_probabilities": {
+        "OPENS": 0.15582270920276642,
+        "PICKS UP": 0.19911006093025208,
+        "PUT DOWN": 0.16954544186592102,
+        "POUR IN": 0.12367131561040878,
+        "WALKS": 0.058300670236349106,
+        "WASHING": 0.21021915972232819,
+        "COOKING": 0.08333060145378113
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "action": "WASHING",
+      "action_confidence": 0.2163163274526596,
+      "action_probabilities": {
+        "OPENS": 0.1477581113576889,
+        "PICKS UP": 0.1973450481891632,
+        "PUT DOWN": 0.1680520921945572,
+        "POUR IN": 0.1238371878862381,
+        "WALKS": 0.058167487382888794,
+        "WASHING": 0.2163163274526596,
+        "COOKING": 0.08852372318506241
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "action": "WASHING",
+      "action_confidence": 0.2290179282426834,
+      "action_probabilities": {
+        "OPENS": 0.1436643898487091,
+        "PICKS UP": 0.1925784796476364,
+        "PUT DOWN": 0.1664677858352661,
+        "POUR IN": 0.12329494953155518,
+        "WALKS": 0.05798576772212982,
+        "WASHING": 0.2290179282426834,
+        "COOKING": 0.08699066191911697
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "action": "WASHING",
+      "action_confidence": 0.22433526813983917,
+      "action_probabilities": {
+        "OPENS": 0.1418907195329666,
+        "PICKS UP": 0.1985446959733963,
+        "PUT DOWN": 0.15989503264427185,
+        "POUR IN": 0.12814250588417053,
+        "WALKS": 0.05833742395043373,
+        "WASHING": 0.22433526813983917,
+        "COOKING": 0.08885431289672852
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.1913502812385559,
+      "action_probabilities": {
+        "OPENS": 0.1716613918542862,
+        "PICKS UP": 0.1913502812385559,
+        "PUT DOWN": 0.17250680923461914,
+        "POUR IN": 0.1336289644241333,
+        "WALKS": 0.06065989285707474,
+        "WASHING": 0.18501313030719757,
+        "COOKING": 0.08517951518297195
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "action": "OPENS",
+      "action_confidence": 0.1866655796766281,
+      "action_probabilities": {
+        "OPENS": 0.1866655796766281,
+        "PICKS UP": 0.1795913279056549,
+        "PUT DOWN": 0.17597244679927826,
+        "POUR IN": 0.14126037061214447,
+        "WALKS": 0.064107246696949,
+        "WASHING": 0.1642903983592987,
+        "COOKING": 0.08811262249946594
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 13.0,
+      "end": 15.0,
+      "action": "PICKS UP",
+      "action_confidence": 0.18688608705997467,
+      "action_probabilities": {
+        "OPENS": 0.17263978719711304,
+        "PICKS UP": 0.18688608705997467,
+        "PUT DOWN": 0.1717977672815323,
+        "POUR IN": 0.13940687477588654,
+        "WALKS": 0.060112301260232925,
+        "WASHING": 0.1818329393863678,
+        "COOKING": 0.08732430636882782
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 14.0,
+      "end": 15.5,
+      "action": "PICKS UP",
+      "action_confidence": 0.19129438698291779,
+      "action_probabilities": {
+        "OPENS": 0.17274804413318634,
+        "PICKS UP": 0.19129438698291779,
+        "PUT DOWN": 0.16795459389686584,
+        "POUR IN": 0.1362076699733734,
+        "WALKS": 0.05844412371516228,
+        "WASHING": 0.18571478128433228,
+        "COOKING": 0.08763647824525833
+      },
+      "source": "xclip_transfer"
+    },
+    {
+      "start": 15.0,
+      "end": 15.5,
+      "action": "PICKS UP",
+      "action_confidence": 0.18889166414737701,
+      "action_probabilities": {
+        "OPENS": 0.17304503917694092,
+        "PICKS UP": 0.18889166414737701,
+        "PUT DOWN": 0.16963054239749908,
+        "POUR IN": 0.13320454955101013,
+        "WALKS": 0.05827745422720909,
+        "WASHING": 0.18856632709503174,
+        "COOKING": 0.08838438987731934
+      },
+      "source": "xclip_transfer"
+    }
+  ],
+  "object_detections": [
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3458773195743561,
+      "bbox_xyxy": [
+        547.735107421875,
+        108.76814270019531,
+        622.4659423828125,
+        261.5426330566406
+      ],
+      "timestamp": 0.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5124928951263428,
+      "bbox_xyxy": [
+        334.8642883300781,
+        275.580322265625,
+        392.07550048828125,
+        338.9814453125
+      ],
+      "timestamp": 0.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4405193030834198,
+      "bbox_xyxy": [
+        571.873291015625,
+        108.70417785644531,
+        651.90576171875,
+        261.23162841796875
+      ],
+      "timestamp": 0.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26199179887771606,
+      "bbox_xyxy": [
+        620.6693115234375,
+        102.10462951660156,
+        659.3743286132812,
+        254.02633666992188
+      ],
+      "timestamp": 0.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4795244038105011,
+      "bbox_xyxy": [
+        567.8261108398438,
+        94.64521789550781,
+        652.1588134765625,
+        256.97808837890625
+      ],
+      "timestamp": 0.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4006831645965576,
+      "bbox_xyxy": [
+        44.050758361816406,
+        1.354837417602539,
+        163.56088256835938,
+        140.4899139404297
+      ],
+      "timestamp": 0.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6478852033615112,
+      "bbox_xyxy": [
+        0.0,
+        3.1372146606445312,
+        113.30389404296875,
+        222.03536987304688
+      ],
+      "timestamp": 1.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4711769223213196,
+      "bbox_xyxy": [
+        561.2296752929688,
+        178.80372619628906,
+        648.1575927734375,
+        342.4132080078125
+      ],
+      "timestamp": 1.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5351795554161072,
+      "bbox_xyxy": [
+        625.4161987304688,
+        193.0023651123047,
+        710.1390991210938,
+        369.735107421875
+      ],
+      "timestamp": 1.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.43317198753356934,
+      "bbox_xyxy": [
+        18.278549194335938,
+        57.974525451660156,
+        160.1160888671875,
+        229.0550079345703
+      ],
+      "timestamp": 1.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5478554964065552,
+      "bbox_xyxy": [
+        710.3143310546875,
+        262.9662780761719,
+        800.2099609375,
+        463.23779296875
+      ],
+      "timestamp": 1.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5225039124488831,
+      "bbox_xyxy": [
+        498.8870544433594,
+        71.89691162109375,
+        577.5807495117188,
+        281.19451904296875
+      ],
+      "timestamp": 1.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2884351909160614,
+      "bbox_xyxy": [
+        1492.7432861328125,
+        254.23129272460938,
+        1676.028076171875,
+        514.1788330078125
+      ],
+      "timestamp": 1.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6761232614517212,
+      "bbox_xyxy": [
+        776.764892578125,
+        333.749755859375,
+        862.2288208007812,
+        533.470703125
+      ],
+      "timestamp": 1.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5346568822860718,
+      "bbox_xyxy": [
+        230.2576446533203,
+        76.34809112548828,
+        360.03179931640625,
+        248.18539428710938
+      ],
+      "timestamp": 1.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.28881388902664185,
+      "bbox_xyxy": [
+        26.479270935058594,
+        192.29818725585938,
+        210.15101623535156,
+        394.3151550292969
+      ],
+      "timestamp": 1.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2708510756492615,
+      "bbox_xyxy": [
+        878.973876953125,
+        409.388916015625,
+        934.0068359375,
+        534.7006225585938
+      ],
+      "timestamp": 1.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6351349353790283,
+      "bbox_xyxy": [
+        915.6073608398438,
+        340.9909973144531,
+        1012.4137573242188,
+        565.6876831054688
+      ],
+      "timestamp": 2.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5734451413154602,
+      "bbox_xyxy": [
+        87.42878723144531,
+        164.4264678955078,
+        295.8121337890625,
+        391.639892578125
+      ],
+      "timestamp": 2.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26415199041366577,
+      "bbox_xyxy": [
+        309.55413818359375,
+        13.979804992675781,
+        471.96649169921875,
+        210.10752868652344
+      ],
+      "timestamp": 2.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7531862854957581,
+      "bbox_xyxy": [
+        1049.6591796875,
+        499.5964050292969,
+        1157.05322265625,
+        745.8528442382812
+      ],
+      "timestamp": 2.25
+    },
+    {
+      "object": "FRIDGE",
+      "prompt_name": "refrigerator",
+      "confidence": 0.7908508777618408,
+      "bbox_xyxy": [
+        396.7269287109375,
+        0.0,
+        1651.17138671875,
+        483.730224609375
+      ],
+      "timestamp": 2.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7444300055503845,
+      "bbox_xyxy": [
+        1100.57470703125,
+        655.9927978515625,
+        1227.8427734375,
+        892.165771484375
+      ],
+      "timestamp": 2.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3842417597770691,
+      "bbox_xyxy": [
+        1199.23046875,
+        590.9668579101562,
+        1296.720458984375,
+        879.7767333984375
+      ],
+      "timestamp": 2.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.34032779932022095,
+      "bbox_xyxy": [
+        456.67181396484375,
+        170.69956970214844,
+        610.5333251953125,
+        392.469970703125
+      ],
+      "timestamp": 2.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7659221291542053,
+      "bbox_xyxy": [
+        1197.751220703125,
+        620.8399047851562,
+        1282.1376953125,
+        868.55419921875
+      ],
+      "timestamp": 2.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6669852137565613,
+      "bbox_xyxy": [
+        1091.865478515625,
+        692.841796875,
+        1223.45166015625,
+        896.6061401367188
+      ],
+      "timestamp": 2.75
+    },
+    {
+      "object": "FRIDGE",
+      "prompt_name": "refrigerator",
+      "confidence": 0.5890687704086304,
+      "bbox_xyxy": [
+        215.50172424316406,
+        0.1039581298828125,
+        1684.935546875,
+        452.0576171875
+      ],
+      "timestamp": 2.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.40236204862594604,
+      "bbox_xyxy": [
+        302.2786865234375,
+        223.4465789794922,
+        500.9490051269531,
+        464.6846923828125
+      ],
+      "timestamp": 2.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6481117010116577,
+      "bbox_xyxy": [
+        1096.4051513671875,
+        739.8336181640625,
+        1220.9443359375,
+        900.963134765625
+      ],
+      "timestamp": 3.0
+    },
+    {
+      "object": "FRIDGE",
+      "prompt_name": "refrigerator",
+      "confidence": 0.6308181881904602,
+      "bbox_xyxy": [
+        0.0,
+        0.0,
+        1583.3009033203125,
+        491.61785888671875
+      ],
+      "timestamp": 3.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.589530348777771,
+      "bbox_xyxy": [
+        1176.7569580078125,
+        653.0908203125,
+        1267.0213623046875,
+        901.249755859375
+      ],
+      "timestamp": 3.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7329309582710266,
+      "bbox_xyxy": [
+        1086.5677490234375,
+        708.7033081054688,
+        1185.589111328125,
+        917.022216796875
+      ],
+      "timestamp": 3.25
+    },
+    {
+      "object": "FRIDGE",
+      "prompt_name": "refrigerator",
+      "confidence": 0.32072654366493225,
+      "bbox_xyxy": [
+        0.813079833984375,
+        0.0,
+        1424.3447265625,
+        549.4054565429688
+      ],
+      "timestamp": 3.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26411953568458557,
+      "bbox_xyxy": [
+        1033.5948486328125,
+        803.181884765625,
+        1150.1011962890625,
+        917.09765625
+      ],
+      "timestamp": 3.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.8220460414886475,
+      "bbox_xyxy": [
+        1049.8223876953125,
+        718.1006469726562,
+        1151.1910400390625,
+        841.7861938476562
+      ],
+      "timestamp": 3.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3459271490573883,
+      "bbox_xyxy": [
+        0.5156707763671875,
+        615.6649169921875,
+        210.32492065429688,
+        841.1522216796875
+      ],
+      "timestamp": 3.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.44680511951446533,
+      "bbox_xyxy": [
+        0.3321533203125,
+        632.588134765625,
+        198.08262634277344,
+        906.2696533203125
+      ],
+      "timestamp": 3.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3707474172115326,
+      "bbox_xyxy": [
+        1068.357666015625,
+        716.0740356445312,
+        1119.878662109375,
+        780.0280151367188
+      ],
+      "timestamp": 3.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.28676924109458923,
+      "bbox_xyxy": [
+        51.72267150878906,
+        629.482666015625,
+        161.74490356445312,
+        733.7920532226562
+      ],
+      "timestamp": 3.75
+    },
+    {
+      "object": "FRIDGE",
+      "prompt_name": "refrigerator",
+      "confidence": 0.5114170908927917,
+      "bbox_xyxy": [
+        0.0,
+        0.509490966796875,
+        1274.685302734375,
+        653.3677978515625
+      ],
+      "timestamp": 4.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4171912372112274,
+      "bbox_xyxy": [
+        0.00350189208984375,
+        664.8507080078125,
+        171.3802490234375,
+        944.6812133789062
+      ],
+      "timestamp": 4.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.33825579285621643,
+      "bbox_xyxy": [
+        760.5316162109375,
+        759.413330078125,
+        1367.8115234375,
+        1077.66845703125
+      ],
+      "timestamp": 4.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.32505086064338684,
+      "bbox_xyxy": [
+        1280.971923828125,
+        747.7622680664062,
+        1504.3968505859375,
+        936.7355346679688
+      ],
+      "timestamp": 4.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6471022963523865,
+      "bbox_xyxy": [
+        817.78955078125,
+        724.518798828125,
+        951.89013671875,
+        928.9393310546875
+      ],
+      "timestamp": 4.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.35683155059814453,
+      "bbox_xyxy": [
+        781.0062255859375,
+        904.289794921875,
+        1079.96728515625,
+        1078.53662109375
+      ],
+      "timestamp": 4.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3169371783733368,
+      "bbox_xyxy": [
+        435.0824890136719,
+        478.812744140625,
+        851.662353515625,
+        923.47412109375
+      ],
+      "timestamp": 4.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7348476648330688,
+      "bbox_xyxy": [
+        634.23193359375,
+        629.815185546875,
+        828.8955688476562,
+        857.1091918945312
+      ],
+      "timestamp": 4.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.32941004633903503,
+      "bbox_xyxy": [
+        669.090576171875,
+        512.3439331054688,
+        838.110595703125,
+        742.8486328125
+      ],
+      "timestamp": 4.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.32656773924827576,
+      "bbox_xyxy": [
+        836.9229125976562,
+        638.0992431640625,
+        931.97900390625,
+        791.1168823242188
+      ],
+      "timestamp": 4.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.698154628276825,
+      "bbox_xyxy": [
+        492.80584716796875,
+        708.9166870117188,
+        726.054931640625,
+        931.4033203125
+      ],
+      "timestamp": 5.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3663995563983917,
+      "bbox_xyxy": [
+        786.7335205078125,
+        995.7302856445312,
+        1126.131591796875,
+        1076.939697265625
+      ],
+      "timestamp": 5.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.31587421894073486,
+      "bbox_xyxy": [
+        45.035888671875,
+        431.43072509765625,
+        535.645751953125,
+        929.65576171875
+      ],
+      "timestamp": 5.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5902042984962463,
+      "bbox_xyxy": [
+        244.2052459716797,
+        817.1751708984375,
+        540.8141479492188,
+        1032.978515625
+      ],
+      "timestamp": 5.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3814796507358551,
+      "bbox_xyxy": [
+        1673.419189453125,
+        157.2970733642578,
+        1920.0,
+        535.5791015625
+      ],
+      "timestamp": 5.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.34526821970939636,
+      "bbox_xyxy": [
+        653.381103515625,
+        955.14794921875,
+        928.5492553710938,
+        1077.4583740234375
+      ],
+      "timestamp": 5.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6911007165908813,
+      "bbox_xyxy": [
+        1602.4222412109375,
+        258.2837219238281,
+        1920.0,
+        647.6636352539062
+      ],
+      "timestamp": 5.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6459676623344421,
+      "bbox_xyxy": [
+        0.7202224731445312,
+        877.14208984375,
+        361.6690979003906,
+        1078.1712646484375
+      ],
+      "timestamp": 5.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5003585815429688,
+      "bbox_xyxy": [
+        476.2965087890625,
+        871.8072509765625,
+        773.5888671875,
+        1078.005615234375
+      ],
+      "timestamp": 5.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.41298624873161316,
+      "bbox_xyxy": [
+        55.992279052734375,
+        727.3792114257812,
+        490.884765625,
+        1003.477294921875
+      ],
+      "timestamp": 5.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3798087239265442,
+      "bbox_xyxy": [
+        585.691650390625,
+        605.5995483398438,
+        824.301513671875,
+        828.9937133789062
+      ],
+      "timestamp": 5.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6798439621925354,
+      "bbox_xyxy": [
+        1593.730224609375,
+        308.3590087890625,
+        1917.236572265625,
+        702.8472900390625
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.6768927574157715,
+      "bbox_xyxy": [
+        371.3820495605469,
+        822.4737548828125,
+        654.0560302734375,
+        1077.48291015625
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.35260242223739624,
+      "bbox_xyxy": [
+        0.0,
+        859.0761108398438,
+        261.8888244628906,
+        1058.837646484375
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2989712655544281,
+      "bbox_xyxy": [
+        0.0,
+        695.3241577148438,
+        393.1692810058594,
+        988.2132568359375
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2730637192726135,
+      "bbox_xyxy": [
+        624.811767578125,
+        834.2237548828125,
+        905.922119140625,
+        1077.719482421875
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.26942208409309387,
+      "bbox_xyxy": [
+        1374.53466796875,
+        226.06581115722656,
+        1690.0989990234375,
+        582.1488037109375
+      ],
+      "timestamp": 5.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5309402942657471,
+      "bbox_xyxy": [
+        1685.96044921875,
+        357.54144287109375,
+        1919.7249755859375,
+        612.4189453125
+      ],
+      "timestamp": 6.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.32384830713272095,
+      "bbox_xyxy": [
+        568.6446533203125,
+        819.6097412109375,
+        855.7886352539062,
+        1077.64306640625
+      ],
+      "timestamp": 6.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2699728012084961,
+      "bbox_xyxy": [
+        359.91973876953125,
+        793.6697387695312,
+        634.471923828125,
+        1008.1924438476562
+      ],
+      "timestamp": 6.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6867622137069702,
+      "bbox_xyxy": [
+        132.5886993408203,
+        797.1446533203125,
+        346.5575866699219,
+        927.306396484375
+      ],
+      "timestamp": 6.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.47232601046562195,
+      "bbox_xyxy": [
+        0.0,
+        647.953369140625,
+        275.727783203125,
+        985.892333984375
+      ],
+      "timestamp": 6.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.29920676350593567,
+      "bbox_xyxy": [
+        365.02325439453125,
+        771.9600219726562,
+        632.2081298828125,
+        987.0331420898438
+      ],
+      "timestamp": 6.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2816457748413086,
+      "bbox_xyxy": [
+        1577.6865234375,
+        223.72279357910156,
+        1751.3404541015625,
+        429.596435546875
+      ],
+      "timestamp": 6.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5124171376228333,
+      "bbox_xyxy": [
+        1635.22705078125,
+        365.9083251953125,
+        1919.792724609375,
+        667.1046142578125
+      ],
+      "timestamp": 6.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.34412911534309387,
+      "bbox_xyxy": [
+        1409.2747802734375,
+        215.22027587890625,
+        1771.04443359375,
+        598.8814697265625
+      ],
+      "timestamp": 6.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.334953248500824,
+      "bbox_xyxy": [
+        131.45516967773438,
+        803.6295776367188,
+        342.03436279296875,
+        933.3557739257812
+      ],
+      "timestamp": 6.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3237610161304474,
+      "bbox_xyxy": [
+        351.7078857421875,
+        779.587890625,
+        635.7066650390625,
+        995.29638671875
+      ],
+      "timestamp": 6.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.259997695684433,
+      "bbox_xyxy": [
+        0.301300048828125,
+        652.364990234375,
+        271.23089599609375,
+        840.126220703125
+      ],
+      "timestamp": 6.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.6449305415153503,
+      "bbox_xyxy": [
+        1432.677490234375,
+        175.97781372070312,
+        1815.9766845703125,
+        582.818359375
+      ],
+      "timestamp": 6.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5687386393547058,
+      "bbox_xyxy": [
+        1650.364990234375,
+        348.21734619140625,
+        1919.486328125,
+        713.5103759765625
+      ],
+      "timestamp": 6.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.36287325620651245,
+      "bbox_xyxy": [
+        141.00433349609375,
+        777.2296142578125,
+        352.004638671875,
+        903.9429931640625
+      ],
+      "timestamp": 6.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.33235418796539307,
+      "bbox_xyxy": [
+        0.0,
+        623.414794921875,
+        279.08416748046875,
+        958.6995849609375
+      ],
+      "timestamp": 6.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26237016916275024,
+      "bbox_xyxy": [
+        1648.359375,
+        2.6158447265625,
+        1920.0,
+        712.59814453125
+      ],
+      "timestamp": 6.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4427049458026886,
+      "bbox_xyxy": [
+        0.31903839111328125,
+        600.8170166015625,
+        286.3647766113281,
+        780.2286987304688
+      ],
+      "timestamp": 7.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2627123296260834,
+      "bbox_xyxy": [
+        136.6559600830078,
+        747.0382690429688,
+        352.402587890625,
+        872.7802734375
+      ],
+      "timestamp": 7.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4713538885116577,
+      "bbox_xyxy": [
+        0.0,
+        556.094970703125,
+        292.7503662109375,
+        887.317626953125
+      ],
+      "timestamp": 7.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.46911293268203735,
+      "bbox_xyxy": [
+        1682.1741943359375,
+        70.30762481689453,
+        1880.2877197265625,
+        297.41229248046875
+      ],
+      "timestamp": 7.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3334256410598755,
+      "bbox_xyxy": [
+        366.265869140625,
+        689.5512084960938,
+        658.244384765625,
+        893.8086547851562
+      ],
+      "timestamp": 7.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3006010055541992,
+      "bbox_xyxy": [
+        137.7996368408203,
+        710.171142578125,
+        361.66949462890625,
+        832.3438720703125
+      ],
+      "timestamp": 7.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.288544625043869,
+      "bbox_xyxy": [
+        145.81072998046875,
+        690.9149169921875,
+        657.114501953125,
+        889.662841796875
+      ],
+      "timestamp": 7.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3067935109138489,
+      "bbox_xyxy": [
+        0.0,
+        542.3336181640625,
+        286.6053466796875,
+        865.296630859375
+      ],
+      "timestamp": 7.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.28551530838012695,
+      "bbox_xyxy": [
+        1702.3828125,
+        71.20848083496094,
+        1899.33544921875,
+        287.92816162109375
+      ],
+      "timestamp": 7.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2673758566379547,
+      "bbox_xyxy": [
+        1.4752578735351562,
+        543.4351806640625,
+        302.2508239746094,
+        712.7530517578125
+      ],
+      "timestamp": 7.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5451769232749939,
+      "bbox_xyxy": [
+        1475.3369140625,
+        81.63134765625,
+        1906.8929443359375,
+        504.9656066894531
+      ],
+      "timestamp": 7.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.37207886576652527,
+      "bbox_xyxy": [
+        0.0,
+        543.4434814453125,
+        321.037109375,
+        870.0220947265625
+      ],
+      "timestamp": 7.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.34002619981765747,
+      "bbox_xyxy": [
+        1704.2303466796875,
+        308.1270446777344,
+        1920.0,
+        653.5889892578125
+      ],
+      "timestamp": 7.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3278023302555084,
+      "bbox_xyxy": [
+        178.01651000976562,
+        676.4422607421875,
+        675.3203125,
+        881.5303344726562
+      ],
+      "timestamp": 7.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4827691316604614,
+      "bbox_xyxy": [
+        2.4552383422851562,
+        539.3295288085938,
+        342.3157958984375,
+        716.7263793945312
+      ],
+      "timestamp": 8.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.35602301359176636,
+      "bbox_xyxy": [
+        1507.0205078125,
+        65.38348388671875,
+        1919.244384765625,
+        502.6204833984375
+      ],
+      "timestamp": 8.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.6401658654212952,
+      "bbox_xyxy": [
+        1489.568603515625,
+        90.42869567871094,
+        1920.0,
+        516.8429565429688
+      ],
+      "timestamp": 8.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.41884568333625793,
+      "bbox_xyxy": [
+        1722.2669677734375,
+        358.72283935546875,
+        1920.0,
+        648.111328125
+      ],
+      "timestamp": 8.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3684341013431549,
+      "bbox_xyxy": [
+        1.3844833374023438,
+        550.048095703125,
+        338.68878173828125,
+        730.666259765625
+      ],
+      "timestamp": 8.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3130824863910675,
+      "bbox_xyxy": [
+        200.33108520507812,
+        681.122802734375,
+        680.3908081054688,
+        887.7021484375
+      ],
+      "timestamp": 8.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2863294184207916,
+      "bbox_xyxy": [
+        409.3320007324219,
+        680.99951171875,
+        682.1678466796875,
+        888.8856811523438
+      ],
+      "timestamp": 8.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.49692732095718384,
+      "bbox_xyxy": [
+        1490.42919921875,
+        74.49943542480469,
+        1919.7747802734375,
+        508.03106689453125
+      ],
+      "timestamp": 8.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4379901587963104,
+      "bbox_xyxy": [
+        1722.951416015625,
+        349.27386474609375,
+        1920.0,
+        653.4481201171875
+      ],
+      "timestamp": 8.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.37316039204597473,
+      "bbox_xyxy": [
+        0.0,
+        545.702880859375,
+        345.2896728515625,
+        868.9102783203125
+      ],
+      "timestamp": 8.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.34112128615379333,
+      "bbox_xyxy": [
+        204.0655059814453,
+        679.0933227539062,
+        691.4037475585938,
+        885.8560180664062
+      ],
+      "timestamp": 8.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2627638876438141,
+      "bbox_xyxy": [
+        0.0,
+        256.4828796386719,
+        344.2754211425781,
+        868.3739013671875
+      ],
+      "timestamp": 8.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4144021272659302,
+      "bbox_xyxy": [
+        205.47198486328125,
+        659.724609375,
+        414.4362487792969,
+        787.0878295898438
+      ],
+      "timestamp": 8.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3673294484615326,
+      "bbox_xyxy": [
+        1516.475341796875,
+        61.16935729980469,
+        1919.9615478515625,
+        483.12982177734375
+      ],
+      "timestamp": 8.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.323690265417099,
+      "bbox_xyxy": [
+        0.0,
+        644.7254638671875,
+        290.49908447265625,
+        834.8846435546875
+      ],
+      "timestamp": 8.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2750295102596283,
+      "bbox_xyxy": [
+        466.3742980957031,
+        649.1534423828125,
+        696.5883178710938,
+        856.8104248046875
+      ],
+      "timestamp": 8.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2633835971355438,
+      "bbox_xyxy": [
+        1.6932220458984375,
+        498.0843200683594,
+        345.8835754394531,
+        694.790283203125
+      ],
+      "timestamp": 8.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4625875651836395,
+      "bbox_xyxy": [
+        209.6488037109375,
+        647.0451049804688,
+        418.7705078125,
+        777.891357421875
+      ],
+      "timestamp": 9.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.45743775367736816,
+      "bbox_xyxy": [
+        0.5770339965820312,
+        631.1278076171875,
+        289.2225646972656,
+        821.0301513671875
+      ],
+      "timestamp": 9.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26043426990509033,
+      "bbox_xyxy": [
+        6.591453552246094,
+        492.9097595214844,
+        350.4205322265625,
+        675.9054565429688
+      ],
+      "timestamp": 9.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.25771233439445496,
+      "bbox_xyxy": [
+        493.92352294921875,
+        665.3795776367188,
+        920.4116821289062,
+        1076.939208984375
+      ],
+      "timestamp": 9.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.30407801270484924,
+      "bbox_xyxy": [
+        415.6553955078125,
+        639.1121215820312,
+        690.37744140625,
+        845.858642578125
+      ],
+      "timestamp": 9.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2928776443004608,
+      "bbox_xyxy": [
+        0.25783538818359375,
+        633.291259765625,
+        276.6698913574219,
+        825.794921875
+      ],
+      "timestamp": 9.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2782462537288666,
+      "bbox_xyxy": [
+        196.8043670654297,
+        648.4663696289062,
+        407.90338134765625,
+        780.2319946289062
+      ],
+      "timestamp": 9.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.26567837595939636,
+      "bbox_xyxy": [
+        531.7498779296875,
+        412.071533203125,
+        787.7066650390625,
+        651.8109741210938
+      ],
+      "timestamp": 9.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.25038260221481323,
+      "bbox_xyxy": [
+        480.1584777832031,
+        669.7850341796875,
+        905.8795166015625,
+        1078.093994140625
+      ],
+      "timestamp": 9.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5028418898582458,
+      "bbox_xyxy": [
+        408.8768005371094,
+        654.476806640625,
+        683.5992431640625,
+        862.3584594726562
+      ],
+      "timestamp": 9.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.47542262077331543,
+      "bbox_xyxy": [
+        1723.401123046875,
+        366.81719970703125,
+        1920.0,
+        610.8154907226562
+      ],
+      "timestamp": 9.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4644247591495514,
+      "bbox_xyxy": [
+        198.5771026611328,
+        665.5509033203125,
+        405.0303039550781,
+        794.9686889648438
+      ],
+      "timestamp": 9.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.32205066084861755,
+      "bbox_xyxy": [
+        1491.024169921875,
+        96.00526428222656,
+        1919.826416015625,
+        521.27099609375
+      ],
+      "timestamp": 9.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2653603255748749,
+      "bbox_xyxy": [
+        0.0,
+        648.070068359375,
+        279.30841064453125,
+        841.3837280273438
+      ],
+      "timestamp": 9.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5490536689758301,
+      "bbox_xyxy": [
+        1483.7822265625,
+        94.62492370605469,
+        1917.24072265625,
+        517.3662109375
+      ],
+      "timestamp": 9.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3702358305454254,
+      "bbox_xyxy": [
+        1713.70166015625,
+        344.8424072265625,
+        1920.0,
+        648.926025390625
+      ],
+      "timestamp": 9.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.29961785674095154,
+      "bbox_xyxy": [
+        0.92431640625,
+        530.2203369140625,
+        333.646240234375,
+        710.87890625
+      ],
+      "timestamp": 9.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2513439655303955,
+      "bbox_xyxy": [
+        406.4772033691406,
+        660.8275146484375,
+        673.9627685546875,
+        864.437744140625
+      ],
+      "timestamp": 9.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.48367345333099365,
+      "bbox_xyxy": [
+        1489.90283203125,
+        94.4765625,
+        1916.8414306640625,
+        526.880126953125
+      ],
+      "timestamp": 10.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.42062586545944214,
+      "bbox_xyxy": [
+        1718.304443359375,
+        357.75860595703125,
+        1920.0,
+        660.260009765625
+      ],
+      "timestamp": 10.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4941692352294922,
+      "bbox_xyxy": [
+        0.0,
+        657.7259521484375,
+        291.81805419921875,
+        846.24267578125
+      ],
+      "timestamp": 10.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.44754117727279663,
+      "bbox_xyxy": [
+        6.204345703125,
+        526.9873046875,
+        349.48028564453125,
+        707.118408203125
+      ],
+      "timestamp": 10.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4293583333492279,
+      "bbox_xyxy": [
+        210.9375457763672,
+        667.4632568359375,
+        693.9329833984375,
+        864.1982421875
+      ],
+      "timestamp": 10.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3143579661846161,
+      "bbox_xyxy": [
+        209.86953735351562,
+        672.3524169921875,
+        415.7337646484375,
+        801.1597900390625
+      ],
+      "timestamp": 10.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.615975022315979,
+      "bbox_xyxy": [
+        1477.7440185546875,
+        121.15800476074219,
+        1889.84912109375,
+        528.8270263671875
+      ],
+      "timestamp": 10.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4261842370033264,
+      "bbox_xyxy": [
+        1706.534423828125,
+        337.2809143066406,
+        1920.0,
+        628.0391845703125
+      ],
+      "timestamp": 10.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2809302806854248,
+      "bbox_xyxy": [
+        2.8234405517578125,
+        533.8683471679688,
+        333.3688049316406,
+        715.7481689453125
+      ],
+      "timestamp": 10.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5877543091773987,
+      "bbox_xyxy": [
+        1460.595458984375,
+        119.45219421386719,
+        1878.794921875,
+        540.5849609375
+      ],
+      "timestamp": 10.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.34468746185302734,
+      "bbox_xyxy": [
+        1689.9130859375,
+        342.759765625,
+        1920.0,
+        672.8555908203125
+      ],
+      "timestamp": 10.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.32433947920799255,
+      "bbox_xyxy": [
+        1692.6229248046875,
+        5.67352294921875,
+        1920.0,
+        672.8641357421875
+      ],
+      "timestamp": 10.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2601037621498108,
+      "bbox_xyxy": [
+        0.0,
+        243.83670043945312,
+        320.0849304199219,
+        879.83349609375
+      ],
+      "timestamp": 10.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5022079944610596,
+      "bbox_xyxy": [
+        1457.804931640625,
+        124.39810180664062,
+        1863.0245361328125,
+        534.217529296875
+      ],
+      "timestamp": 11.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4267118573188782,
+      "bbox_xyxy": [
+        1685.3360595703125,
+        10.46905517578125,
+        1920.0,
+        638.6585083007812
+      ],
+      "timestamp": 11.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.40890055894851685,
+      "bbox_xyxy": [
+        1684.5194091796875,
+        330.1795654296875,
+        1920.0,
+        643.16552734375
+      ],
+      "timestamp": 11.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4053786098957062,
+      "bbox_xyxy": [
+        1701.6998291015625,
+        268.6260681152344,
+        1920.0,
+        580.280029296875
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3956097364425659,
+      "bbox_xyxy": [
+        146.00643920898438,
+        674.523681640625,
+        362.5532531738281,
+        804.4818115234375
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.38409557938575745,
+      "bbox_xyxy": [
+        0.883758544921875,
+        531.7344360351562,
+        290.4888916015625,
+        704.3084106445312
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.30055972933769226,
+      "bbox_xyxy": [
+        365.0391540527344,
+        656.7306518554688,
+        648.1254272460938,
+        862.0709838867188
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.30041196942329407,
+      "bbox_xyxy": [
+        488.2872619628906,
+        425.0895080566406,
+        740.61962890625,
+        662.046875
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2958712577819824,
+      "bbox_xyxy": [
+        436.1358947753906,
+        678.1569213867188,
+        862.047607421875,
+        1077.341064453125
+      ],
+      "timestamp": 11.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.6589629650115967,
+      "bbox_xyxy": [
+        1629.9283447265625,
+        195.4559326171875,
+        1920.0,
+        551.52490234375
+      ],
+      "timestamp": 11.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5442417860031128,
+      "bbox_xyxy": [
+        1412.063720703125,
+        12.985565185546875,
+        1815.176025390625,
+        433.0374755859375
+      ],
+      "timestamp": 11.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3786722421646118,
+      "bbox_xyxy": [
+        0.0,
+        434.7388000488281,
+        258.9470520019531,
+        796.647705078125
+      ],
+      "timestamp": 11.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.314790815114975,
+      "bbox_xyxy": [
+        389.109375,
+        625.4638671875,
+        834.207275390625,
+        1077.2335205078125
+      ],
+      "timestamp": 11.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2831572890281677,
+      "bbox_xyxy": [
+        0.0,
+        211.50119018554688,
+        263.7014465332031,
+        796.3130493164062
+      ],
+      "timestamp": 11.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5914831757545471,
+      "bbox_xyxy": [
+        1653.494873046875,
+        206.53616333007812,
+        1920.0,
+        561.8624267578125
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5792509317398071,
+      "bbox_xyxy": [
+        1436.1099853515625,
+        4.7779998779296875,
+        1851.32080078125,
+        430.85552978515625
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.45186689496040344,
+      "bbox_xyxy": [
+        404.1347351074219,
+        556.2178344726562,
+        630.4791870117188,
+        768.6212768554688
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.435395747423172,
+      "bbox_xyxy": [
+        148.1112060546875,
+        567.5457763671875,
+        364.86468505859375,
+        706.9085693359375
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.31182271242141724,
+      "bbox_xyxy": [
+        0.42510223388671875,
+        540.47021484375,
+        238.54605102539062,
+        750.1387939453125
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26048094034194946,
+      "bbox_xyxy": [
+        0.33286285400390625,
+        388.8280334472656,
+        296.52911376953125,
+        605.1403198242188
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.25774261355400085,
+      "bbox_xyxy": [
+        396.22210693359375,
+        596.1229858398438,
+        838.55078125,
+        1077.6822509765625
+      ],
+      "timestamp": 12.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5786860585212708,
+      "bbox_xyxy": [
+        1467.0220947265625,
+        1.604095458984375,
+        1900.25537109375,
+        418.2452087402344
+      ],
+      "timestamp": 12.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.47656917572021484,
+      "bbox_xyxy": [
+        1686.7119140625,
+        175.94224548339844,
+        1920.0,
+        548.4727783203125
+      ],
+      "timestamp": 12.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4739389717578888,
+      "bbox_xyxy": [
+        185.04656982421875,
+        517.56201171875,
+        384.5512390136719,
+        657.5506591796875
+      ],
+      "timestamp": 12.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.26448023319244385,
+      "bbox_xyxy": [
+        0.0,
+        49.40686798095703,
+        322.02587890625,
+        694.7232666015625
+      ],
+      "timestamp": 12.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.6314665079116821,
+      "bbox_xyxy": [
+        1500.048828125,
+        2.0906524658203125,
+        1920.0,
+        430.30596923828125
+      ],
+      "timestamp": 12.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.36142200231552124,
+      "bbox_xyxy": [
+        0.17575836181640625,
+        460.10302734375,
+        301.740478515625,
+        678.0565185546875
+      ],
+      "timestamp": 12.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.34493520855903625,
+      "bbox_xyxy": [
+        223.5413360595703,
+        503.0505065917969,
+        414.3370056152344,
+        642.9068603515625
+      ],
+      "timestamp": 12.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5934086441993713,
+      "bbox_xyxy": [
+        267.8485107421875,
+        522.7805786132812,
+        452.1440734863281,
+        666.4888916015625
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5237524509429932,
+      "bbox_xyxy": [
+        1519.65625,
+        58.807342529296875,
+        1919.2598876953125,
+        502.5233459472656
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5015227794647217,
+      "bbox_xyxy": [
+        0.12238311767578125,
+        471.80712890625,
+        342.0886535644531,
+        698.1853637695312
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.4659137725830078,
+      "bbox_xyxy": [
+        502.060302734375,
+        529.351806640625,
+        702.7637939453125,
+        745.5709228515625
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3643399178981781,
+      "bbox_xyxy": [
+        584.16455078125,
+        352.6376953125,
+        821.7057495117188,
+        568.0198974609375
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.25320330262184143,
+      "bbox_xyxy": [
+        1734.544189453125,
+        370.717041015625,
+        1919.9794921875,
+        646.4420776367188
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.25275203585624695,
+      "bbox_xyxy": [
+        438.9188232421875,
+        586.9500122070312,
+        907.43994140625,
+        1077.8822021484375
+      ],
+      "timestamp": 12.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.49135297536849976,
+      "bbox_xyxy": [
+        2.3547134399414062,
+        454.9371643066406,
+        350.7152099609375,
+        683.8404541015625
+      ],
+      "timestamp": 13.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.44966334104537964,
+      "bbox_xyxy": [
+        294.124267578125,
+        515.656494140625,
+        472.15631103515625,
+        659.8646240234375
+      ],
+      "timestamp": 13.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.422435998916626,
+      "bbox_xyxy": [
+        516.08984375,
+        527.0213012695312,
+        706.6004028320312,
+        743.3602294921875
+      ],
+      "timestamp": 13.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3295619487762451,
+      "bbox_xyxy": [
+        1736.659423828125,
+        411.2647705078125,
+        1920.0,
+        674.0352783203125
+      ],
+      "timestamp": 13.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.4468569755554199,
+      "bbox_xyxy": [
+        522.999267578125,
+        504.2238464355469,
+        714.2603759765625,
+        723.641845703125
+      ],
+      "timestamp": 13.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.40548044443130493,
+      "bbox_xyxy": [
+        1745.7864990234375,
+        401.4947204589844,
+        1919.8890380859375,
+        658.2554931640625
+      ],
+      "timestamp": 13.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.40201079845428467,
+      "bbox_xyxy": [
+        3.3680648803710938,
+        429.3739929199219,
+        352.03070068359375,
+        659.6383056640625
+      ],
+      "timestamp": 13.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3304173946380615,
+      "bbox_xyxy": [
+        32.805084228515625,
+        309.00372314453125,
+        470.94549560546875,
+        637.62060546875
+      ],
+      "timestamp": 13.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.25116005539894104,
+      "bbox_xyxy": [
+        1537.570068359375,
+        112.31950378417969,
+        1919.56396484375,
+        519.6206665039062
+      ],
+      "timestamp": 13.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4977598190307617,
+      "bbox_xyxy": [
+        286.2059326171875,
+        492.2273254394531,
+        465.4228820800781,
+        637.5617065429688
+      ],
+      "timestamp": 13.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3848624527454376,
+      "bbox_xyxy": [
+        0.1447906494140625,
+        428.55633544921875,
+        350.31268310546875,
+        658.0339965820312
+      ],
+      "timestamp": 13.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.36176255345344543,
+      "bbox_xyxy": [
+        510.9919738769531,
+        501.7742614746094,
+        704.544677734375,
+        719.82958984375
+      ],
+      "timestamp": 13.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.2976313829421997,
+      "bbox_xyxy": [
+        1528.311767578125,
+        89.46180725097656,
+        1919.4920654296875,
+        511.9638977050781
+      ],
+      "timestamp": 13.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.45551246404647827,
+      "bbox_xyxy": [
+        0.0,
+        436.8710632324219,
+        344.5741882324219,
+        665.1300659179688
+      ],
+      "timestamp": 13.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3849058151245117,
+      "bbox_xyxy": [
+        282.4063720703125,
+        495.33013916015625,
+        461.69659423828125,
+        642.2162475585938
+      ],
+      "timestamp": 13.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3581191301345825,
+      "bbox_xyxy": [
+        1527.151611328125,
+        98.19754028320312,
+        1919.4635009765625,
+        509.6729736328125
+      ],
+      "timestamp": 13.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.40984711050987244,
+      "bbox_xyxy": [
+        515.518310546875,
+        510.1922607421875,
+        709.9964599609375,
+        729.4522705078125
+      ],
+      "timestamp": 14.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3664962649345398,
+      "bbox_xyxy": [
+        1744.240234375,
+        400.4235534667969,
+        1920.0,
+        661.1851806640625
+      ],
+      "timestamp": 14.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2954994738101959,
+      "bbox_xyxy": [
+        0.02025604248046875,
+        438.673095703125,
+        348.39849853515625,
+        665.9527587890625
+      ],
+      "timestamp": 14.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.269943505525589,
+      "bbox_xyxy": [
+        288.896728515625,
+        499.26800537109375,
+        466.9581298828125,
+        647.0103149414062
+      ],
+      "timestamp": 14.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.4707914888858795,
+      "bbox_xyxy": [
+        1.5767898559570312,
+        451.019775390625,
+        353.9858703613281,
+        677.7128295898438
+      ],
+      "timestamp": 14.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.43034908175468445,
+      "bbox_xyxy": [
+        516.4888916015625,
+        523.1420288085938,
+        711.8836669921875,
+        740.0084838867188
+      ],
+      "timestamp": 14.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3947301208972931,
+      "bbox_xyxy": [
+        1745.429443359375,
+        411.9980163574219,
+        1920.0,
+        675.122802734375
+      ],
+      "timestamp": 14.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3053432106971741,
+      "bbox_xyxy": [
+        1536.706787109375,
+        114.19171142578125,
+        1920.0,
+        534.3675537109375
+      ],
+      "timestamp": 14.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.2596840560436249,
+      "bbox_xyxy": [
+        295.343017578125,
+        511.1791076660156,
+        474.1722106933594,
+        656.8717041015625
+      ],
+      "timestamp": 14.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5637187957763672,
+      "bbox_xyxy": [
+        20.21363067626953,
+        497.6290283203125,
+        359.46197509765625,
+        720.4310302734375
+      ],
+      "timestamp": 14.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.38968735933303833,
+      "bbox_xyxy": [
+        614.3045654296875,
+        392.0760498046875,
+        843.150146484375,
+        604.3350219726562
+      ],
+      "timestamp": 14.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3504956364631653,
+      "bbox_xyxy": [
+        523.9007568359375,
+        563.0399780273438,
+        716.1396484375,
+        778.9180297851562
+      ],
+      "timestamp": 14.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.319828599691391,
+      "bbox_xyxy": [
+        302.7656555175781,
+        553.0181884765625,
+        480.65533447265625,
+        696.4956665039062
+      ],
+      "timestamp": 14.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.6038515567779541,
+      "bbox_xyxy": [
+        1549.532470703125,
+        196.0367889404297,
+        1920.0,
+        603.7185668945312
+      ],
+      "timestamp": 14.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3180466890335083,
+      "bbox_xyxy": [
+        647.1132202148438,
+        461.09674072265625,
+        873.0089721679688,
+        668.02587890625
+      ],
+      "timestamp": 14.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.29734358191490173,
+      "bbox_xyxy": [
+        82.69189453125,
+        572.64599609375,
+        408.63037109375,
+        788.8883056640625
+      ],
+      "timestamp": 14.75
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.29060500860214233,
+      "bbox_xyxy": [
+        568.78076171875,
+        626.412353515625,
+        764.8885498046875,
+        841.74365234375
+      ],
+      "timestamp": 14.75
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.633614182472229,
+      "bbox_xyxy": [
+        357.673828125,
+        622.745361328125,
+        535.0362548828125,
+        758.6918334960938
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.5746490955352783,
+      "bbox_xyxy": [
+        84.95521545410156,
+        604.3062744140625,
+        419.7071228027344,
+        803.0306396484375
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5112061500549316,
+      "bbox_xyxy": [
+        1519.5748291015625,
+        9.73663330078125,
+        1903.320556640625,
+        421.51837158203125
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5070233345031738,
+      "bbox_xyxy": [
+        578.3935546875,
+        597.208251953125,
+        774.602783203125,
+        805.3141479492188
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.46999719738960266,
+      "bbox_xyxy": [
+        1747.330810546875,
+        256.008544921875,
+        1920.0,
+        559.0010375976562
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.36861452460289,
+      "bbox_xyxy": [
+        638.1588134765625,
+        420.4400939941406,
+        859.970947265625,
+        631.3155517578125
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.28079912066459656,
+      "bbox_xyxy": [
+        613.3786010742188,
+        643.086181640625,
+        980.452880859375,
+        1007.1417846679688
+      ],
+      "timestamp": 15.0
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7014854550361633,
+      "bbox_xyxy": [
+        1698.86572265625,
+        19.830413818359375,
+        1920.0,
+        425.5300598144531
+      ],
+      "timestamp": 15.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.4778344929218292,
+      "bbox_xyxy": [
+        150.87661743164062,
+        710.322021484375,
+        480.05035400390625,
+        886.724365234375
+      ],
+      "timestamp": 15.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.3641694486141205,
+      "bbox_xyxy": [
+        617.282958984375,
+        623.2147216796875,
+        833.7510986328125,
+        825.2506103515625
+      ],
+      "timestamp": 15.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3367805778980255,
+      "bbox_xyxy": [
+        657.8125,
+        450.79083251953125,
+        870.90869140625,
+        657.7516479492188
+      ],
+      "timestamp": 15.25
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3344469964504242,
+      "bbox_xyxy": [
+        666.5452880859375,
+        650.972412109375,
+        1050.892333984375,
+        1012.5982666015625
+      ],
+      "timestamp": 15.25
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.7018503546714783,
+      "bbox_xyxy": [
+        1602.6104736328125,
+        1.0587158203125,
+        1847.9520263671875,
+        261.63824462890625
+      ],
+      "timestamp": 15.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.5490038394927979,
+      "bbox_xyxy": [
+        0.16083526611328125,
+        514.0489501953125,
+        256.98455810546875,
+        1022.1839599609375
+      ],
+      "timestamp": 15.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.451224684715271,
+      "bbox_xyxy": [
+        210.9671630859375,
+        773.0359497070312,
+        537.6503295898438,
+        945.00732421875
+      ],
+      "timestamp": 15.5
+    },
+    {
+      "object": "CUP",
+      "prompt_name": "cup",
+      "confidence": 0.3958398401737213,
+      "bbox_xyxy": [
+        654.91552734375,
+        611.6390380859375,
+        870.9927978515625,
+        811.3602294921875
+      ],
+      "timestamp": 15.5
+    },
+    {
+      "object": "BOTTLE",
+      "prompt_name": "bottle",
+      "confidence": 0.36299964785575867,
+      "bbox_xyxy": [
+        1364.2613525390625,
+        0.43737030029296875,
+        1660.3011474609375,
+        200.68331909179688
+      ],
+      "timestamp": 15.5
+    }
+  ],
+  "annotations": []
+}
