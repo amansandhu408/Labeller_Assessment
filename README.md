@@ -1,4 +1,4 @@
-# Labellerr Assessment — AI-Assisted Egocentric Video Annotation
+# Labellerr Assessment — POV: AI-Assisted Egocentric Video Annotation
 
 > **Project:** semi-automated action + object annotation for egocentric video using frozen X-CLIP transfer learning, YOLOE open-vocabulary detection, temporal fusion, and human review.
 
@@ -163,11 +163,27 @@ No observed proposal in that threshold experiment crossed the `0.85` auto-accept
 
 These results are useful as a workflow diagnostic: they show that the current action model needs better calibration/temporal alignment before an automatic-accept queue would be trusted at scale. The point of the assessment prototype is the end-to-end annotation design and human-in-the-loop workflow, not a claim of production accuracy.
 
-## 9. Visualizations
+## 9. Visualizations & Execution Evidence
 
-The notebook displays a reviewer-oriented annotation timeline for each human-verified clip. Model annotations are shown as solid intervals and human reference intervals as dashed intervals.
+### Human vs. Model Temporal Annotations
 
-The same idea can be reproduced from the reusable visualization helper in [`src/visualization.py`](src/visualization.py). Generated plots belong under `outputs/visualizations/`.
+The notebook displays reviewer-oriented temporal timelines for the three human-verified clips. Dashed intervals represent the human reference annotations, while solid intervals represent model-generated proposals.
+
+![Human vs model temporal annotations](docs/images/human_labeled.png)
+
+### Action Model Validation
+
+The participant-disjoint validation results include the per-class classification report and confusion matrix. The sparse classes are explicitly retained rather than hidden from the evaluation.
+
+![Action model validation results](docs/images/eval.png)
+
+### Local End-to-End Pipeline Test
+
+The modular pipeline was also tested locally through the command-line entry point after installing the repository environment. The test verifies the reusable source modules and the generated prediction output.
+
+![Local pipeline test](docs/images/pic.png)
+
+The same visualization workflow can be reproduced using the helper in [`src/visualization.py`](src/visualization.py). Generated experiment outputs belong under `outputs/visualizations/`.
 
 The repository-level system flowchart is available here:
 
